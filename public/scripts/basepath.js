@@ -18,7 +18,11 @@ $(document).ready(function() {
 	$("#nl_central").toggle(function() {showClass("nl_central")}, 
 						function() {hideClass("nl_central")});
 	$("#nl_west").toggle(function() {showClass("nl_west")}, 
-						function() {hideClass("nl_west")});																
+						function() {hideClass("nl_west")});		
+						
+	$('.inlinesparkline').sparkline(null, 
+									//{type: 'bar', barColor: 'green'});
+									{type: 'tristate'});														
 })
 
 function showClass(divClass, buttonSel)

@@ -10,6 +10,8 @@
 		%script{:type => 'text/javascript',
 						:src => 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js'}
 		%script{:type => 'text/javascript',
+						:src =>'scripts/jquery.sparkline.min.js'}
+		%script{:type => 'text/javascript',
 						:src =>'scripts/basepath.js'}
 
 	%body
@@ -33,21 +35,39 @@
 				#teams
 					#brs{:class => 'al_east'}
 						Boston Red Sox
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#nyy{:class => 'al_east'}
 						New York Yankees
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#tbj{:class => 'al_east'}
 						Toronto Blue Jays
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#bo{:class => 'al_east'}
 						Baltimore Orioles
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#mt{:class => 'al_central'}
 						Minnesota Twins
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#sm{:class => 'al_west'}
-						Seattle Mariners		
+						Seattle Mariners
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10		
 					#nym{:class => 'nl_east'}
 						New York Mets
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#cc{:class => 'nl_central'}
 						Chicago Cubs
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 					#lad{:class => 'nl_west'}
-						Los Angeles Dodgers	
+						Los Angeles Dodgers
+						%span{:class => "inlinesparkline"}
+							1,4,-4,7,-5,9,10
 			#right
 		#footer
