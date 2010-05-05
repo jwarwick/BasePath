@@ -1,0 +1,145 @@
+-
+    city: San Francisco
+    name: Giants
+    league: nl
+    division: west
+-
+    city: San Diego
+    name: Padres
+    league: nl
+    division: west
+-
+    city: Colorado
+    name: Rockies
+    league: nl
+    division: west
+-
+    city: Arizona
+    name: Diamondbacks
+    league: nl
+    division: west
+-
+    city: St. Louis
+    name: Cardinals
+    league: nl
+    division: central
+-
+    city: Pittsburgh
+    name: Pirates
+    league: nl
+    division: central
+-
+    city: Milwaukee
+    name: Brewers
+    league: nl
+    division: central
+-
+    city: Houston
+    name: Astros
+    league: nl
+    division: central
+-
+    city: Cincinnati
+    name: Reds
+    league: nl
+    division: central
+-
+    city: Chicago
+    name: Cubs
+    league: nl
+    division: central
+-
+    city: Washington
+    name: Nationals
+    league: nl
+    division: east
+-
+    city: Philadelphia
+    name: Phillies
+    league: nl
+    division: east
+-
+    city: New York
+    name: Mets
+    league: nl
+    division: east
+-
+    city: Florida
+    name: Marlins
+    league: nl
+    division: east
+-
+    city: Atlanta
+    name: Braves
+    league: nl
+    division: east
+-
+    city: Texas
+    name: Rangers
+    league: al
+    division: west
+-
+    city: Seattle
+    name: Mariners
+    league: al
+    division: west
+-
+    city: Oakland
+    name: Athletics
+    league: al
+    division: west
+-
+    city: Los Angeles
+    name: Angels
+    league: al
+    division: west
+-
+    city: Minnesota
+    name: Twins
+    league: al
+    division: central
+-
+    city: Kansas City
+    name: Royals
+    league: al
+    division: central
+-
+    city: Detroit
+    name: Tigers
+    league: al
+    division: central
+-
+    city: Clevland
+    name: Indians
+    league: al
+    division: central
+-
+    city: Chicago
+    name: White Sox
+    league: al
+    division: central
+-
+    city: Baltimore
+    name: Orioles
+    league: al
+    division: east
+-
+    city: Boston
+    name: Red Sox
+    league: al
+    division: east
+-
+    city: New York
+    name: Yankees
+    league: al
+    division: east
+-
+    city: Tampa Bay
+    name: Rays
+    league: al
+    division: east
+-
+    city: Toronto
+    name: Blue Jays
+    league: al
+    division: east    
