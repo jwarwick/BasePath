@@ -8,5 +8,9 @@ DataMapper.setup(:default, ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/developm
 DataMapper.auto_upgrade!
 
 get '/?' do
+  @teams = Team.all(:order => [:league.asc, :division.asc])
+
+  #@teams = Team.all(:league => 'al', :division => 'west') 
+
   haml :index
 end
