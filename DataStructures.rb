@@ -1,4 +1,4 @@
-class Team
+class TeamEntry
   include DataMapper::Resource
   
   property :id,           Serial
@@ -6,5 +6,6 @@ class Team
   property :name,         String
   property :league,       String
   property :division,     String
+  property :abbrev,       String
   
 end

@@ -3,143 +3,172 @@
     name: Giants
     league: nl
     division: west
+    abbrev: sfn
 -
     city: San Diego
     name: Padres
     league: nl
     division: west
+    abbrev: sdn
 -
     city: Colorado
     name: Rockies
     league: nl
     division: west
+    abbrev: col
 -
     city: Arizona
     name: Diamondbacks
     league: nl
     division: west
+    abbrev: ari
 -
     city: St. Louis
     name: Cardinals
     league: nl
     division: central
+    abbrev: sln
 -
     city: Pittsburgh
     name: Pirates
     league: nl
     division: central
+    abbrev: pit
 -
     city: Milwaukee
     name: Brewers
     league: nl
     division: central
+    abbrev: mil
 -
     city: Houston
     name: Astros
     league: nl
     division: central
+    abbrev: hou
 -
     city: Cincinnati
     name: Reds
     league: nl
     division: central
+    abbrev: cin
 -
     city: Chicago
     name: Cubs
     league: nl
     division: central
+    abbrev: chn
 -
     city: Washington
     name: Nationals
     league: nl
     division: east
+    abbrev: was
 -
     city: Philadelphia
     name: Phillies
     league: nl
     division: east
+    abbrev: phi
 -
     city: New York
     name: Mets
     league: nl
     division: east
+    abbrev: nyn
 -
     city: Florida
     name: Marlins
     league: nl
     division: east
+    abbrev: flo
 -
     city: Atlanta
     name: Braves
     league: nl
     division: east
+    abbrev: atl
 -
     city: Texas
     name: Rangers
     league: al
     division: west
+    abbrev: tex
 -
     city: Seattle
     name: Mariners
     league: al
     division: west
+    abbrev: sea
 -
     city: Oakland
     name: Athletics
     league: al
     division: west
+    abbrev: oak
 -
-    city: Los Angeles
+    city: Anaheim
     name: Angels
     league: al
     division: west
+    abbrev: ana
 -
     city: Minnesota
     name: Twins
     league: al
     division: central
+    abbrev: min
 -
     city: Kansas City
     name: Royals
     league: al
     division: central
+    abbrev: kca
 -
     city: Detroit
     name: Tigers
     league: al
     division: central
+    abbrev: det
 -
     city: Clevland
     name: Indians
     league: al
     division: central
+    abbrev: cle
 -
     city: Chicago
     name: White Sox
     league: al
     division: central
+    abbrev: cha
 -
     city: Baltimore
     name: Orioles
     league: al
     division: east
+    abbrev: bal
 -
     city: Boston
     name: Red Sox
     league: al
     division: east
+    abbrev: bos
 -
     city: New York
     name: Yankees
     league: al
     division: east
+    abbrev: nya
 -
     city: Tampa Bay
     name: Rays
     league: al
     division: east
+    abbrev: tba
 -
     city: Toronto
     name: Blue Jays
     league: al
-    division: east    
+    division: east
+    abbrev: tor    

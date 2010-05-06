@@ -12,12 +12,14 @@ yml.each do |item|
   name = item['name']
   league = item['league']
   division = item['division']
-  puts "Adding: #{city}, #{name}, #{league}, #{division}"
-  team = Team.new(
+  abbrev = item['abbrev']
+  puts "Adding: #{city}, #{name}, #{league}, #{division}, #{abbrev}"
+  team = TeamEntry.new(
     :city => city,
     :name => name,
     :league => league,
-    :division => division
+    :division => division,
+    :abbrev => abbrev
   )
   puts "Error saving team" unless team.save
 end
