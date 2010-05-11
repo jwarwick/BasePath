@@ -14,9 +14,10 @@ get '/?' do
 
 =begin
   team = Team.new('bos')
-  games = team.all_games('2010')
+  #games = team.all_games('2010')
+  games = team.get_games_for_month('4', '2010')
   games.each do |game|
-    puts "#{game.visit_team_name} vs #{game.home_team_name}"
+    puts "#{game.visit_team_name} vs #{game.home_team_name}, #{game.home_runs}-#{game.away_runs}"
   end
 =end
 
