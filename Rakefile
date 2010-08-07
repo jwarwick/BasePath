@@ -1,4 +1,4 @@
-task :create_teams do
+task :build_db do
   ruby 'config/build_db.rb'
 end
 
