@@ -1,5 +1,6 @@
 require 'rubygems'
-require 'team'
+#require 'gameday_api'
+require 'team' # from gameday_api
 
 team = Team.new('bos')
 games = team.all_games('2010')

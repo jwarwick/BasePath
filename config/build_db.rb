@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'dm-core'
+#require 'dm-core'
 require 'dm-migrations'
 require 'DataStructures.rb'
 require 'yaml'
@@ -47,3 +47,4 @@ yml.each do |item|
   )
   team.save or abort "Error saving team"
 end
+
