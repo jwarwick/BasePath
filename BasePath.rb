@@ -1,15 +1,24 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
-require 'dm-core'
 require 'DataStructures'
-require 'team'
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/development.db")
-DataMapper.auto_upgrade!
+#DataMapper.auto_upgrade!
 
 get '/?' do
-  @teams = TeamEntry.all(:order => [:league.asc, :division.asc])
+  @al_east = Division.al_east
+  @al_central = Division.al_central
+  @al_west = Division.al_west
+  @nl_east = Division.nl_east
+  @nl_central = Division.nl_central
+  @nl_west = Division.nl_west
+  
+  @divisions = [@al_east, @al_central, @al_west, 
+    @nl_east, @nl_central, @nl_west]
+  
+  #@teams = Team.all
+  #@teams = TeamEntry.all(:order => [:league.asc, :division.asc])
   #@teams = Team.all(:league => 'al', :division => 'west') 
 
 =begin

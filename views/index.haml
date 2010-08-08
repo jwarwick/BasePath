@@ -19,24 +19,16 @@
 		#main
 			#left
 			#center
-				#buttons
-					#al_east{:class => 'down, ui-state-active'}
-						AL East
-					#al_central{:class => 'down'}
-						AL Central
-					#al_west{:class => 'down'}
-						AL West
-					#nl_east{:class => 'down'}
-						NL East
-					#nl_central{:class => 'down'}
-						NL Central
-					#nl_west{:class => 'down'}
-						NL West
 				#teams
-					- @teams.each do |team|
-						= "<div class='" + team.league + "_" + team.division + "'>" + team.city + " "  + team.name
-						%span{:class => "inlinesparkline"}
-							1,4,-4,7,-5,9,10
-						= "</div>"
+					- @divisions.each do |division|
+						.division
+							.division_title #{division.league.name} #{division.name}
+							- division.teams.each do |team|
+								.team
+									#{team.city} #{team.name}
+									%span{:class => "inlinesparkline"}
+										1,4,-4,7,-5,9,10
+							%p
 			#right
 		#footer
+		

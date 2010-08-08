@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#al_east").button();		
+	/*$("#al_east").button();		
 	$("#al_central").button();
 	$("#al_west").button();
 	$("#nl_east").button();
@@ -19,12 +19,13 @@ $(document).ready(function() {
 						function() {hideClass("nl_central")});
 	$("#nl_west").toggle(function() {showClass("nl_west")}, 
 						function() {hideClass("nl_west")});		
-						
+						*/
 	$('.inlinesparkline').sparkline(null, 
 									//{type: 'bar', barColor: 'green'});
 									{type: 'tristate'});														
 })
 
+/*
 function showClass(divClass, buttonSel)
 {
 	$("." + divClass).slideUp();
@@ -38,3 +39,4 @@ function hideClass(divClass, buttonSel)
 	buttonSel.toggleClass('ui-state-active');
 	
 }
+*/
